@@ -1,0 +1,42 @@
+.buybtn { 
+    background-color: #5143D9;
+}.btn:hover{
+    background-color:  #392bb5;
+}
+p{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+}
+.content-button{
+   
+    background-color:rgb(245,245,246);
+    color : black ;
+  
+  border: none;
+    
+}
+.card{
+    margin: 60px 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.078);
+   
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1), box-shadow 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.078);
+}
+.footer{
+    height: 30rem;
+}
+@media (max-width: 500px) {
+
+    p{
+        font-size: 30px;
+    }
+  
+  }
